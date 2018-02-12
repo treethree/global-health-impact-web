@@ -43,14 +43,16 @@ Now you are all set to run the project on your local machine.
 
 •	If you are on LINUX machine follow below command to run the application.
 
-$ export FLASK_APP=flask_app.py
-$ flask run
+`$ export FLASK_APP=flask_app.py`
+
+`$ flask run`
 
 •	If you are on Windows machine follow below command to run the application.
 
-`code`
-$ set FLASK_APP=flask_app.py
-$ flask run
+
+`$ set FLASK_APP=flask_app.py`
+
+`$ flask run`
 
 You can find your localhost URL after flask run – Example http://127.0.0.1:5000/  
 
