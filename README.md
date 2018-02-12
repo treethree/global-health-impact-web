@@ -1,4 +1,4 @@
-# global-health-impact-web
+# Global-Health-Impact
 Get your GHI project up and running on local machine.
 
 # Environment setup for python and flask.
