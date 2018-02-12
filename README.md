@@ -48,6 +48,7 @@ $ flask run
 
 •	If you are on Windows machine follow below command to run the application.
 
+`code`
 $ set FLASK_APP=flask_app.py
 $ flask run
 
