@@ -23,21 +23,31 @@ Get your GHI project up and running on local machine.
 Clone the GitHub project 
 • 	Download the latest version of the project. (Please clone it from the GitHub on your local directory).
 Follow the below document for cloning from GitHub. 
+
 https://help.github.com/articles/cloning-a-repository/ 
+
 After cloning the project and python setup, now make changes in flask_app.py to connect to the database.
+
 •	Go to file flask_app.py 
+
 •	Line number 47, change the path as per your machine to connect to sqllite3.
+
 def connect_db():
-   print("in connect_db")
+
+print("in connect_db")
+   
 return sqlite3.connect('F:\GHI\ghi2\mysite\ghi.db')   
+
 
 Now you are all set to run the project on your local machine.
 
 •	If you are on LINUX machine follow below command to run the application.
+
 $ export FLASK_APP=flask_app.py
 $ flask run
 
 •	If you are on Windows machine follow below command to run the application.
+
 $ set FLASK_APP=flask_app.py
 $ flask run
 
