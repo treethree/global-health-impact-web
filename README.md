@@ -32,11 +32,11 @@ After cloning the project and python setup, now make changes in flask_app.py to 
 
 •	Line number 47, change the path as per your machine to connect to sqllite3.
 
-def connect_db():
+`def connect_db():`
 
-print("in connect_db")
+`print("in connect_db")`
    
-return sqlite3.connect('F:\GHI\ghi2\mysite\ghi.db')   
+`return sqlite3.connect('F:\GHI\ghi2\mysite\ghi.db')`
 
 
 Now you are all set to run the project on your local machine.
