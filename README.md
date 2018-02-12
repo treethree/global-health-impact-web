@@ -4,11 +4,17 @@ Get your GHI project up and running on local machine.
 # Environment setup for python and flask.
 
 •	Install Sublime text (or editor of your own choice).
+
 •	Install Python (above version 2.7).
+
 •	Install Flask.
+
 •	Install pandas (check the commands as per windows, LINUX or Mac).
+
 	python -m pip install pandas
+	
 •	Install openpyxl.
+
 	pip3 install --user openpyxl
 
 
